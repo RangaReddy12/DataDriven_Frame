@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="driverFactory.TestScript">
+      <class name="apr21.BrowserTesting">
         <methods>
-          <include name="startTest"/>
+          <include name="verify_Login"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="AdminLogin"/>
         </methods>
-      </class> <!-- driverFactory.TestScript -->
+      </class> <!-- apr21.BrowserTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
